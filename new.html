@@ -10,28 +10,36 @@
 <body>
     <section>
         <nav class="navbar navbar-expand-lg">
-
-        <!--  Show this only on mobile to medium screens  -->
-        <a class="navbar-brand d-lg-none" href="/"><img src="img/BRUSH TO LOGO.png" height="80px" width="200px" alt="" ></a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-      
-      <!--  Use flexbox utility classes to change how the child elements are justified  -->
-        <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
-                 
-          
-      <!--   Show this only lg screens and up   -->
-        <a class="navbar-brand d-none d-lg-block" href="/"><img src="img/BRUSH TO LOGO.png" height="80px" width="200px" alt="" ></a>
-          
-        <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-        </ul>
+            <div style="width: 100vw;">
+                       <!--  Show this only on mobile to medium screens  -->
+                <a class="navbar-brand d-lg-none" href="/"><img src="img/BRUSH TO LOGO.png" height="80px" width="200px" alt="" ></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+                        
+                
+            <!--   Show this only lg screens and up   -->
+                <a style="float: left;" class="navbar-brand d-none d-lg-block" href="/"><img src="img/BRUSH TO LOGO.png" height="80px" width="200px" alt="" ></a>
+                
+               <span style="float: right;font-size: 32px;">NEWS</span>
+                
+            
+            </div> 
+                
+                <div style="float: right;margin-top: -12vh;margin-right: 30px">
+                    <span><a style="text-decoration: none;padding: 10px;" href="artists.html">Artist</a></span>
+                    <span><a style="text-decoration: none;padding: 10px;" href="press.html">Press</a></span>
+                    <span><a style="text-decoration: none;padding: 10px;" href="projects.html">Projects</a></span>
+                    <span><a style="text-decoration: none;padding: 10px;" href="exhibitions.html">Exhibitions</a></span>
+                </div>
         </div>
+        
+
       </nav>
     </section> 
     

@@ -39,7 +39,7 @@ nav ul li a {
     font-size: 32px;
 }
 nav ul {
-    float: right;
+    float: right !important;
     margin-right: 30px;
 }
 main ul{
