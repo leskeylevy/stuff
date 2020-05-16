@@ -17,7 +17,7 @@ nav{
     height: 120px;
     background-color: rgba(239, 239, 247, 0.747); 
     line-height: 120px;  
-    border-bottom: 5px solid rgb(194, 184, 184);
+    border-bottom: 3px solid rgb(179, 177, 177);
 }
 .logo{
     display: inline-block;
@@ -150,13 +150,66 @@ nav ul {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 600px) {
+    .links{
+        padding: 10px;
+        border-bottom: 1px solid grey;
+        text-align: center;
+    }
+    .links li{
+        list-style-type: none;
+        display: inline-block;
+        
+    }
+    .links li a{
+        text-decoration: none;
+        color: blue;
+        font-size: 20px;
+    }.content {
+        border-bottom: 1px solid grey;
+        left: 10px;
+        font-size: 24px;
+        text-align: left;
+    }
+    .futa1 {
+        float: left;
+        padding: 15px;
+    }.futa2{
+        float: right;
+        padding: 15px;
+    }.logo{
+        display: inline-block;
+        margin-left: 35vw;
+    }.header {
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+    .content {
+        border-bottom: 1px solid grey;
+        left: 10px;
+        font-size: 32px;
+        text-align: center;
+    }.logo{
+        display: inline-block;
+        margin-left: 45vw;
+    }nav {
+        width: 100%;
+        height: 150px;
+        line-height: 150px;
+    }.header{
+        height: 50vh;
+    }.links {
+        font-size: 30px;
+    }.futa1 {
+        font-size: 24px;
+    }
+    .futa2 {
+        font-size: 24px;
+    }
+}
