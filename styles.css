@@ -17,13 +17,14 @@ nav{
     height: 120px;
     background-color: rgba(239, 239, 247, 0.747); 
     line-height: 120px;  
-    border-bottom: 3px solid rgb(179, 177, 177);
+    border-bottom: 3px solid rgb(179, 177, 177); 
+    z-index: 2;
 }
 .logo{
     display: inline-block;
     margin-left: 40vw;
 }
-nav ul li:hover{
+/* nav ul li:hover{
     background-color: black;
 
 }
@@ -41,7 +42,7 @@ nav ul li a {
 nav ul {
     float: right !important;
     margin-right: 30px;
-}
+} */
 .links{
     margin-left: 5vw;
     border-bottom: 3px solid grey;
